@@ -1,0 +1,92 @@
+*{
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    text-decoration : none;
+    transition: all .2s linear;
+}
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:whitesmoke;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: rgb(248,247,247);
+}
+header .chintu{
+    color: rgb(13, 13, 14);
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 500px;
+}
+header .navbar a{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+header .navbar a:hover,
+header .navbar a.active{
+    color :rgb(14, 13, 13);
+    background-color: aqua;
+}
+section{
+    padding: 2rem 9%
+}
+.btn{
+    background-color: aqua;
+    margin:20px;
+    padding:10px;
+    color:rgb(12, 12, 12);
+    font-size:20px;
+    display: inline-block;
+}
+.home .home-slider .slide{
+    display: block;
+    padding:100px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding-top: 9rem;
+}
+.column .image{
+    float:left;
+    width: fit-content;
+    padding: 10px;
+}
+.row::after{
+    content:" ";
+    clear:both;
+    display:table;
+}
+ .column .image {
+    position: relative;
+    width: fit-content;
+    border: 1px solid #181414;
+    border-spacing: 1px solid #181414;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-bottom: 2%;
+ }
+ .column .image .text{
+    text-decoration: solid;
+     color: black;
+ }
+ .cart{
+    font-family: monospace;
+    
+    margin: 10px;
+    padding: 10px;
+    box-sizing:border-box ;
+    text-decoration : none;
+    text-align: center;
+    text-size-adjust: 20px;
+    transition: all .2s linear;
+}

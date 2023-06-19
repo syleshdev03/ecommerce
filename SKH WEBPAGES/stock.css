@@ -1,0 +1,44 @@
+header .chintu{
+    color: rgb(0,1,68);
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 500px;
+}
+header .navbar a{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+header .navbar a:hover,
+header .navbar a.active{
+    color :white;
+    background-color: aqua;
+}
+.column .image{
+    float:left;
+    width: fit-content;
+    padding: 10px;
+}
+.row::after{
+    content:" ";
+    clear:both;
+    display:table;
+}
+ .column .image {
+    position: relative;
+    width: fit-content;
+ }
+ .column .image .text{
+    text-decoration: solid;
+     color: black;
+ }
+ .btn{
+    background-color: cyan;
+    margin:20px;
+    padding:10px;
+    color:white;
+    font-size:20px;
+    display: inline-block;
+}

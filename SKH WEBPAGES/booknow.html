@@ -1,0 +1,112 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header {
+
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background-color:whitesmoke;
+padding: 2px;
+display: flex;
+align-items: center;
+z-index: 1000;
+box-shadow: rgb(248,247,247);
+}
+header .chintu{
+color: rgb(0,1,68);
+font-size: 30px;
+font-weight: bold;
+margin-right: 500px;
+}
+header .navbar a{
+font-size: 20px;
+color: black;
+padding: 10px;
+border-radius: 12px;
+
+}
+header .navbar a:hover,
+header .navbar a.active{
+color :white;
+background-color: aqua;
+}
+section{
+padding: 2rem 9%
+}
+body {font-family: sans-serif;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: cyan;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(231, 216, 216);
+}
+</style>
+</head>
+<body>
+  <header>
+    <a class="chintu">SKH</a>
+    <nav class="navbar">
+        <a class="active" href="chintu.html"> Home</a>
+        <a href="motors.html">Motors</a>
+        <a href="starter.html">starters</a>
+        <a href="orders.html">Orders</a>
+    </nav>
+</header><br><br>
+<br><h3><b>BOOK NOW FORM</b></h3>
+<div class="container">
+  <form>
+    <label for="name"> Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name">
+
+    <label for="ITEM">ITEM</label>
+    <select id="ITEM" name="ITEM">
+      <option value="Motors">Motors</option>
+      <option value="starters">starters</option>
+      <option value="ENGINES">ENGINES</option>
+    </select>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">HIGH SPEED MOTOR
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio"> LOW SPEED MOTOR
+    </label><br>
+    <br><label for="MOTORS"><b>Motors</b></label>
+    <select id="MOTORS" name="MOTORS">
+      <option value="1.0HP">1.0HP</option>
+      <option value="2.0HP">2.0HP</option>
+      <option value="3.0HP">3.0HP</option>
+      <option value="3.0HP">ABOVE 5.0HP</option>
+    </select>
+     
+    <label for="DESCRIPTION">DESCRIPTION</label>
+    <textarea id="DESCRIPTION" name="DESCRIPTION" placeholder="DESCRIBE ABOUT PROBLEM" style="height:150px"></textarea>
+
+    <div class="checkbox">
+      <label><input type="checkbox">AGREE TERMS AND CONDITIONS </label>
+  </div><br>
+ <br><button type="submit" value="submit"><a href="submit.html">submit</a></button>
+  </form>
+</div>
+</body>
+
+
+
+
+
+    
